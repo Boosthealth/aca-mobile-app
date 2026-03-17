@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 20 14.3% 4.1%;
+    --card: 0 0% 100%;
+    --card-foreground: 20 14.3% 4.1%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 14.3% 4.1%;
+    --primary: 0 0% 0%;
+    --primary-foreground: 0 0% 11%;
+    --secondary: 29 81% 55%;
+    --secondary-foreground: 29 71% 52%;
+    --muted: 60 4.8% 95.9%;
+    --muted-foreground: 25 5.3% 44.7%;
+    --accent: 142 70% 45%;
+    --accent-foreground: 142 80% 20%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 60 9.1% 97.8%;
+
+    --blue: 208 92% 42%;
+    --blue-foreground: 210 63% 47%;
+    --light-blue: 198 100% 97%;
+    --medium-blue: 198 50% 92%;
+    --dark-blue: 210 79% 35%;
+
+    --error: 0 100% 50%;
+    --border: 20 5.9% 90%;
+    --input: 20 5.9% 90%;
+    --ring: 24.6 95% 53.1%;
+    --radius: 0.5rem;
+
+    --flow-progress-bg: 216 60% 95%;
+    --flow-progress-fill: 29 81% 55%;
+    --flow-progress-border: 29 81% 55%;
+    --flow-progress-back: 210 63% 47%;
+    --flow-progress-back-hover: 208 92% 42%;
+    --flow-progress-status-bg: 0 0% 0%;
+
+    --icon: 25 5% 45%;
+    --tint: 29 81% 55%;
+  }
+
+  .dark {
+    --background: 0 0% 4%;
+    --foreground: 60 9% 98%;
+    --card: 0 0% 11%;
+    --card-foreground: 60 9% 98%;
+    --primary: 0 0% 100%;
+    --primary-foreground: 0 0% 90%;
+    --secondary: 29 81% 55%;
+    --secondary-foreground: 29 100% 69%;
+    --muted: 12 6% 15%;
+    --muted-foreground: 24 6% 66%;
+
+    --accent: 142 70% 45%;
+    --accent-foreground: 142 80% 85%;
+
+    --blue: 208 92% 42%;
+    --blue-foreground: 210 63% 47%;
+    --light-blue: 198 100% 97%;
+    --medium-blue: 198 50% 92%;
+    --dark-blue: 210 79% 35%;
+
+    --border: 12 6% 15%;
+    --input: 12 6% 15%;
+    --ring: 25 95% 53%;
+    --icon: 24 6% 66%;
+    --tint: 29 81% 55%;
+
+    --flow-progress-bg: 216 60% 95%;
+    --flow-progress-fill: 29 81% 55%;
+    --flow-progress-border: 29 81% 55%;
+    --flow-progress-back: 210 63% 47%;
+    --flow-progress-back-hover: 208 92% 42%;
+    --flow-progress-status-bg: 0 0% 0%;
+  }
+}
